@@ -16,7 +16,6 @@
     "dev": "ng build ngx-core --watch --configuration ",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
