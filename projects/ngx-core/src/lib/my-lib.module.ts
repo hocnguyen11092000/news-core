@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { MyLibComponent } from './my-lib.component';
 import { TrimDirective } from './directives';
 
 @NgModule({
-  declarations: [MyLibComponent, TrimDirective],
+  declarations: [],
   imports: [],
-  exports: [MyLibComponent, TrimDirective],
+  exports: [],
 })
 export class MyLibModule {}

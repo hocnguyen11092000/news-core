@@ -1,9 +1,9 @@
 /*
- * Public API Surface of my-lib
+ * Public API Surface of ngx-core
  */
 
 //#region export module
-export * from './lib/my-lib.module';
+
 //#endregion export module
 
 //#region export component
@@ -13,3 +13,7 @@ export * from './lib/components';
 //region export component
 export * from './lib/directives';
 //#endregion export component
+
+//#region export services
+export * from './lib/services';
+//#endregion export services

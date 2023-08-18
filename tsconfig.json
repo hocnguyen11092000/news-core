@@ -12,7 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "my-lib": ["dist/my-lib"]
+      "ngx-core": ["dist/ngx-core"]
     },
     "declaration": false,
     "downlevelIteration": true,

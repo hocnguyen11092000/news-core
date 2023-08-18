@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyLibComponent } from './my-lib.component';
+import { MyLibComponent } from './ngx-core.component';
 
 describe('MyLibComponent', () => {
   let component: MyLibComponent;
@@ -8,9 +8,8 @@ describe('MyLibComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MyLibComponent ]
-    })
-    .compileComponents();
+      declarations: [MyLibComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MyLibComponent);
     component = fixture.componentInstance;

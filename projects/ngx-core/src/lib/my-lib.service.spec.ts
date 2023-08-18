@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MyLibService } from './my-lib.service';
+import { MyLibService } from './ngx-core.service';
 
 describe('MyLibService', () => {
   let service: MyLibService;
