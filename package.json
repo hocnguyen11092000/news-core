@@ -1,6 +1,13 @@
 {
-  "name": "build-core",
-  "version": "0.0.0",
+  "name": "study-build-core",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hocnguyen11092000/ngx-core.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
